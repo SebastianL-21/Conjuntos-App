@@ -29,7 +29,7 @@ def format_elements_for_display(element_set, ordenado_func, max_elements_to_show
 # CONFIGURACIÓN DE STREAMLIT
 st.set_page_config(page_title="Conjuntos Visual", layout="centered")
 st.title("🔷 Proyecto Final - Teoría de Conjuntos")
-st.write("Proyecto de Josué Sebastián Licardié Higueros (202507012),Geankarlo André Girón Ochoa(),Daniel Humberto Ramirez Morales()")
+st.write("Proyecto de Josué Sebastián Licardié Higueros(202507012), Geankarlo André Girón Ochoa(202508082), Daniel Humberto Ramirez Morales(202508053)")
 
 # ENTRADA DE CONJUNTOS
 num_conjuntos = st.slider("¿Cuántos conjuntos deseas ingresar?", 2, 3)
